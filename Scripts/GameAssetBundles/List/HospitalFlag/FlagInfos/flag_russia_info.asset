@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec96bc39bfe3f440ae9b5c66b6ec84c, type: 3}
+  m_Name: flag_russia_info
+  m_EditorClassIdentifier: 
+  flagName: icon_russia
+  unlockLevel: 0
+  type: 0
+  cost: 0
+  currencyType: 0
+  assetbundleVersion: 1
+  route: HospitalFlag/flag_russia_miniature
+  miniature: flag_russia_miniature
+  ingameTexture: {fileID: 21300000, guid: 6458ea881ca8a294cb50a2cef884e4d6, type: 3}
+  flagNameKey: FLAG_RUSSIA
+  exp: 0

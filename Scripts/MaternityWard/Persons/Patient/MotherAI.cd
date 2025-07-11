@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Maternity.MaternityPatientAI">
+    <Position X="3.75" Y="0.75" Width="3.25" />
+    <NestedTypes>
+      <Delegate Name="Maternity.MaternityPatientAI.OnStateChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\MaternityPatientAI.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="Maternity.MaternityPatientAI.StateStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\MaternityPatientAI.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gIQFIAAJAAAEB2UAwAKIADQADBBAAEJgAAAABAQABAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\MaternityPatientAI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Person" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaternityStateManager">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\IsoEngine\StateMachine\StateManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="State" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientBaseState&lt;T&gt;">
+    <Position X="18.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAABAgAAAAGAQABAQAABAAIAAAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\MaternityPatientBaseState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaternityPatientInDiagnoseQueueState" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgCAAACAABBAQAABAAIAQIgEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\BloodTestRoomStates\MaternityPatientInDiagnoseQueueState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaternityPatientInDiagnoseState" Collapsed="true">
+    <Position X="13" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAgCAAACAABBAQAAVAAIQQAgEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\BloodTestRoomStates\MaternityPatientInDiagnoseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaternityPatientInWaitingForDiagnoseResultsState" Collapsed="true">
+    <Position X="16.25" Y="10.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAACAAAAAAAAAQAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\BloodTestRoomStates\MaternityPatientInWaitingForDiagnoseResultsState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientBaseLaborState" Collapsed="true">
+    <Position X="32.25" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAACAAABAQAABAAIAQAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\LaborRoomStates\Labor\MaternityPatientBaseLaborState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientLaborFinishedState" Collapsed="true">
+    <Position X="36" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAGAABAAQAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\LaborRoomStates\MaternityPatientLaborFinishedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientBaseBondingState" Collapsed="true">
+    <Position X="41" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAACAAABAAAABAAAAQAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\Bonding\MaternityPatientBaseBondingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientGoToWaitingRoomState" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAQAABAAIAABAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientGoToWaitingRoomState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientReadyForLaborState" Collapsed="true">
+    <Position X="28.5" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientReadyForLaborState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientWaitingForCollectRewardState" Collapsed="true">
+    <Position X="45.5" Y="11" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForCollectRewardState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientWaitingForCuresState" Collapsed="true">
+    <Position X="20.75" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForCuresState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientWaitingForLaborState" Collapsed="true">
+    <Position X="24.75" Y="10.75" Width="3" />
+    <NestedTypes>
+      <Enum Name="Maternity.PatientStates.MaternityPatientWaitingForLaborState.INDEX" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForLaborState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="Maternity.PatientStates.MaternityPatientWaitingForLaborState.Data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForLaborState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAggCgAAAAAAAAAgCAAACEABBASAABAAIAQACEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForLaborState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientWaitingForSendToDiagnoseState" Collapsed="true">
+    <Position X="6" Y="10.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\MaternityPatientWaitingForSendToDiagnoseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientGoToLaborRoomState" Collapsed="true">
+    <Position X="29.75" Y="13.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAABAAQAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\LaborRoomStates\Labor\MaternityPatientGoToLaborRoomState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientInLaborState" Collapsed="true">
+    <Position X="34.75" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAIAAAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\LaborRoomStates\Labor\MaternityPatientInLaborState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientBondingState" Collapsed="true">
+    <Position X="44" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAABAAAAABAAIAAAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\Bonding\MaternityPatientBondingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientReturnToWaitingRoomState" Collapsed="true">
+    <Position X="39" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAABAAQAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\WaitingRoomStates\Bonding\MaternityPatientReturnToWaitingRoomState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maternity.PatientStates.MaternityPatientGoingOutState" Collapsed="true">
+    <Position X="50" Y="11" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="Maternity.PatientStates.MaternityPatientGoingOutState.INDEX" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\MaternityPatientGoingOutState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="Maternity.PatientStates.MaternityPatientGoingOutState.Data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\MaternityPatientGoingOutState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAABAgAAAAGAABBAQAABAAIIQBAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\MaternityPatientGoingOutState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MaternityIState">
+    <Position X="12.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgAAAAEAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\IsoEngine\StateMachine\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IState">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAQAABAAIAAAAEAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\IsoEngine\StateMachine\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BedIState">
+    <Position X="15.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgAAAAAAAABAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\IsoEngine\StateMachine\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BloodTestIState">
+    <Position X="17.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\IsoEngine\StateMachine\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Maternity.PatientStates.MaternityPatientStateTag">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACEAAAgAAAQAAACUIAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MaternityWard\Persons\Patient\States\MaternityPatientBaseState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

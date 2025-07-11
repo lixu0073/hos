@@ -1,0 +1,10 @@
+diff a/Assets/_MyHospital/Scripts/Multi/SaveDynamoConnector.cs b/Assets/_MyHospital/Scripts/Multi/SaveDynamoConnector.cs	(rejected hunks)
+@@ -99,7 +99,7 @@
+             var p = new Save();
+             p.ID = hash;
+             HospitalAreasMapController.Map.SaveGame(p);
+-			//return; //otutututu
++			return; //otutututu
+ 			UIController.get.testView.SetSaveStatus (GameState.saveFilePrepared);
+             if (GameState.saveFilePrepared)
+             {

@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25e7e702d88db84095301bce1de4003, type: 3}
+  m_Name: DailyTaskDataBase
+  m_EditorClassIdentifier: 
+  DailyTaskRestrictionList:
+  - TaskType: 0
+    TaskDifficulty: 0
+    MinimumLevel: 0
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 1
+    TaskDifficulty: 3
+    MinimumLevel: 9
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 2
+    TaskDifficulty: 2
+    MinimumLevel: 12
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 3
+    TaskDifficulty: 3
+    MinimumLevel: 14
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 4
+    TaskDifficulty: 3
+    MinimumLevel: 15
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 5
+    TaskDifficulty: 2
+    MinimumLevel: 15
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 6
+    TaskDifficulty: 3
+    MinimumLevel: 17
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 7
+    TaskDifficulty: 3
+    MinimumLevel: 17
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 8
+    TaskDifficulty: 2
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 9
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 10
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 11
+    TaskDifficulty: 3
+    MinimumLevel: 7
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 12
+    TaskDifficulty: 1
+    MinimumLevel: 4
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 14
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 15
+    TaskDifficulty: 2
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 16
+    TaskDifficulty: 2
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 18
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 19
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 20
+    TaskDifficulty: 3
+    MinimumLevel: 7
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 21
+    TaskDifficulty: 2
+    MinimumLevel: 4
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 22
+    TaskDifficulty: 2
+    MinimumLevel: 4
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 23
+    TaskDifficulty: 1
+    MinimumLevel: 2
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 24
+    TaskDifficulty: 2
+    MinimumLevel: 7
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 25
+    TaskDifficulty: 2
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 26
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 27
+    TaskDifficulty: 1
+    MinimumLevel: 4
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 28
+    TaskDifficulty: 3
+    MinimumLevel: 5
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 29
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 30
+    TaskDifficulty: 1
+    MinimumLevel: 7
+    IsOneTimeOnlyDailyTask: 1
+  - TaskType: 31
+    TaskDifficulty: 1
+    MinimumLevel: 2
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 32
+    TaskDifficulty: 2
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 33
+    TaskDifficulty: 3
+    MinimumLevel: 9
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 34
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 1
+  - TaskType: 35
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 1
+  - TaskType: 36
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 37
+    TaskDifficulty: 3
+    MinimumLevel: 6
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 39
+    TaskDifficulty: 3
+    MinimumLevel: 7
+    IsOneTimeOnlyDailyTask: 1
+  - TaskType: 40
+    TaskDifficulty: 3
+    MinimumLevel: 15
+    IsOneTimeOnlyDailyTask: 0
+  - TaskType: 41
+    TaskDifficulty: 1
+    MinimumLevel: 3
+    IsOneTimeOnlyDailyTask: 1
+  - TaskType: 42
+    TaskDifficulty: 3
+    MinimumLevel: 20
+    IsOneTimeOnlyDailyTask: 0

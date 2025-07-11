@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9af997a56460894fbed7ad2d3a60e79, type: 3}
+  m_Name: DevelopGameParameters
+  m_EditorClassIdentifier: 
+  TestCognito: NR_lvl0_105
+  DevelopSceneUsedVersion: 
+  DevelopSceneUsedSave: 
+  useDevelopSceneForcedCognito: 0
+  expDevIncrease: 2000
+  mockedEventData:
+  - eventKey: generalData
+    eventValue: KidsowyEventID#2017-12-07 16:30:00#2019-12-07 16:30:00#standardEventImage
+    loadEvent: 1
+  - eventKey: shovelDrawChance_FACTOR
+    eventValue: 5#15
+    loadEvent: 0
+  - eventKey: positiveEnergyFromKids_FACTOR
+    eventValue: 5#13
+    loadEvent: 0
+  - eventKey: spawnKidChance_FACTOR
+    eventValue: 5#12
+    loadEvent: 0
+  - eventKey: nextEpidemyCooldown_FACTOR
+    eventValue: 0,2#17
+    loadEvent: 0
+  - eventKey: nextVIPArriveCooldown_FACTOR
+    eventValue: 0#9
+    loadEvent: 0
+  - eventKey: nextFreeBubbleBoy_FACTOR
+    eventValue: 0#6
+    loadEvent: 0
+  - eventKey: treasureChestInterval_FACTOR
+    eventValue: 0,5#7
+    loadEvent: 0
+  - eventKey: bacteriaSpreadDuration0_FACTOR
+    eventValue: 5#19
+    loadEvent: 0
+  - eventKey: bacteriaSpreadDuration1_FACTOR
+    eventValue: 5#19
+    loadEvent: 0
+  - eventKey: bacteriaSpreadDuration2_FACTOR
+    eventValue: 5#19
+    loadEvent: 0
+  - eventKey: expForGardenHelp_FACTOR
+    eventValue: 100#1
+    loadEvent: 0
+  - eventKey: panaceaCollectorFillRate_FACTOR
+    eventValue: 100#1
+    loadEvent: 0
+  - eventKey: patientToDiagnoseChance_FACTOR
+    eventValue: 100#14
+    loadEvent: 0
+  - eventKey: patientWithBacteriaChance_FACTOR
+    eventValue: 100#19
+    loadEvent: 0
+  - eventKey: bacteriaReward0_FACTOR
+    eventValue: 100#19
+    loadEvent: 0
+  - eventKey: bacteriaReward1_FACTOR
+    eventValue: 100#19
+    loadEvent: 0
+  - eventKey: bacteriaReward2_FACTOR
+    eventValue: 100#19
+    loadEvent: 0
+  - eventKey: shovelDrawChanceForHelpInGarden_FACTOR
+    eventValue: 100#15
+    loadEvent: 0
+  - eventKey: doctorsWorkingTime_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: medicineProductionTime_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: diagnosticStationsTime_FACTOR
+    eventValue: 0,1#14
+    loadEvent: 1
+  - eventKey: expForDoctors_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: expForMedicineProduction_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: expForTreatmentRooms_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: coinsForDoctorRooms_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: coinsForTreatmentRooms_FACTOR
+    eventValue: 100#1
+    loadEvent: 1
+  - eventKey: rewardForTODOSCoins_FACTOR
+    eventValue: 5#10
+    loadEvent: 0
+  - eventKey: rewardForTODOSDiamonds_FACTOR
+    eventValue: 5#10
+    loadEvent: 0
+  - eventKey: maxGiftsPerDay_FACTOR
+    eventValue: 2#8
+    loadEvent: 0
+  - eventKey: positiveEnergyRewardForHelpInTreatment_MIN_FACTOR
+    eventValue: 2#1
+    loadEvent: 0
+  - eventKey: positiveEnergyRewardForHelpInTreatment_MAX_FACTOR
+    eventValue: 2#1
+    loadEvent: 0
+  - eventKey: expForHelpingInTreatmentRoom_FACTOR
+    eventValue: 100#1
+    loadEvent: 0
+  - eventKey: costOfDiagnosis_FACTOR
+    eventValue: 0.2#14
+    loadEvent: 1
+  mockedBalanceData:
+  - balanceKey: positiveEnergyRewardForHelpInTreatment_MIN
+    Value: 0
+    loadValue: 0
+  - balanceKey: positiveEnergyRewardForHelpInTreatment_MAX
+    Value: 2
+    loadValue: 0
+  - balanceKey: shovelDraw_CHANCE
+    Value: 0.2
+    loadValue: 0
+  - balanceKey: spawnKid_CHANCE
+    Value: 0.3
+    loadValue: 0
+  - balanceKey: nextEpidemy_TIME_INTERVAL
+    Value: 14400
+    loadValue: 0
+  - balanceKey: nextVIPArrive_TIME_INTERVAL
+    Value: 3600
+    loadValue: 0
+  - balanceKey: nextFreeBubbleBoy_TIME_INTERVAL
+    Value: 28800
+    loadValue: 0
+  - balanceKey: treasureChestSpawn_TIME_INTERVAL
+    Value: 300
+    loadValue: 0
+  - balanceKey: bacteriaSpread_0_TIME_INTERVAL
+    Value: 86400
+    loadValue: 0
+  - balanceKey: bacteriaSpread_1_TIME_INTERVAL
+    Value: 64800
+    loadValue: 0
+  - balanceKey: bacteriaSpread_2_TIME_INTERVAL
+    Value: 57600
+    loadValue: 0
+  - balanceKey: bacteriaReward_0_VALUE
+    Value: 10
+    loadValue: 0
+  - balanceKey: bacteriaReward_1_VALUE
+    Value: 20
+    loadValue: 0
+  - balanceKey: bacteriaReward_2_VALUE
+    Value: 30
+    loadValue: 0
+  - balanceKey: expForGardenHelp_VALUE
+    Value: 15
+    loadValue: 0
+  - balanceKey: patientToDiagnose_CHANCE
+    Value: 0.5
+    loadValue: 0
+  - balanceKey: patientWithBacteria_CHANCE
+    Value: 0.07
+    loadValue: 0
+  - balanceKey: shovelDrawForHelpInGarden_CHANCE
+    Value: 0.2
+    loadValue: 0
+  - balanceKey: diamondsInTreasureChestAfterIAP_VALUE
+    Value: 5
+    loadValue: 0
+  - balanceKey: storageToolsRange_MIN
+    Value: 90
+    loadValue: 0
+  - balanceKey: storageToolsRange_MAX
+    Value: 110
+    loadValue: 0
+  - balanceKey: tankToolsRange_MIN
+    Value: 90
+    loadValue: 0
+  - balanceKey: tankToolsRange_MAX
+    Value: 110
+    loadValue: 0
+  - balanceKey: maxGiftsPerDay_VALUE
+    Value: 5
+    loadValue: 0
+  - balanceKey: rewardForTODOSCoinsMultiplikator_VALUE
+    Value: 1
+    loadValue: 0
+  - balanceKey: rewardForTODOSDiamonds_VALUE
+    Value: 5
+    loadValue: 0
+  - balanceKey: patientVitaminRequired_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityTimeToSpawnNextMother_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityTimeToSpawnNextMother_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityExpToRealtimeSeconds_CONVERSION
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityBloodTestCoinsCost_VALUE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityBloodTestDuration_TIME_INTERVAL
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLaborStageHard_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLevelStageDifficultyChange_VALUE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLaborStageEasyDuration_TIME_INTERVAL_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLaborStageEasyDuration_TIME_INTERVAL_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLaborStageHardDuration_TIME_INTERVAL_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityLaborStageHardDuration_TIME_INTERVAL_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityBondingDuration_TIME_INTERVAL_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: maternityBondingDuration_TIME_INTERVAL_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: vitaminRandomizationLevelThreshold_VALUE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: exponentialParameterA_VALUE_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: exponentialParameterA_VALUE_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: exponentialParameterB_VALUE_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: exponentialParameterB_VALUE_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: hospitalExpToMaternityExp_CONVERSION
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: diamondSpendLimitToShowConfirmation_VALUE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: helpInTreatmentRoomCounter_VALUE_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: helpInTreatmentRoomRequestCooldown_TIME_INTERVAL
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: helpInTreatmentRoomPushCooldown_TIME_INTERVAL
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: helpInTreatmentRoomLevelToUnlock_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: friendsDrawerItems_VALUE_MAX
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: ktPlayUnlockLevel_MIN
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromGoodieBox1_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromGoodieBox2_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromGoodieBox3_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromVIP_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromEpidemyChest_CHANCE
+    Value: 0.8
+    loadValue: 0
+  - balanceKey: shovelDrawFromTreasureChest_CHANCE
+    Value: 0.8
+    loadValue: 0
+  mockedGlobalEvents:
+  - Key: GE5_CONTRIBUTION
+    Value: MedicineContributeGlobalEvent;true;1000000;1001169;2;4?10?20?40?80;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic@diamond;15|15||1#diamond1};1538566054;1540375511;EVENTS/EVENT_DESCRIPTION_CONTRIBUTE_1_TITLE;EVENTS/EVENT_DESCRIPTION_CONTRIBUTE_1;AdvancedElixir(4)
+    loadGlobalEventToTest: 0
+  - Key: GE5_CONTRIBUTION_MULTI
+    Value: MedicineContributeGlobalEvent;true;1000000;1001169;2;4?10?20?40?80;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic@diamond;15|15||1#diamond1};1538566054;1540375511;EVENTS/EVENT_DESCRIPTION_CONTRIBUTE_1_TITLE;EVENTS/EVENT_DESCRIPTION_CONTRIBUTE_MULTI_1;AdvancedElixir(4)$Syrop(1)
+    loadGlobalEventToTest: 0
+  - Key: GE_ACTIVITY_PUMPKINS
+    Value: CollectOnMapActivityGlobalEvent;true;25000000;25112431;4;2?4?6?8?10;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic@diamond;15|15||1#diamond1};1540307640;1544279340;EVENTS/EVENT_DESCRIPTION_HALLOWEEN_1_TITLE;EVENTS/EVENT_DESCRIPTION_HALLOWEEN_1;Pumpkin;3;0;1;15;custom_event_image_1;custom_event_image_1;custom_event_image_1;custom_event_image_1
+    loadGlobalEventToTest: 0
+  - Key: GE5_DOCROOM
+    Value: CurePatientActivityGlobalEvent;true;1000000;1017245;10;3?10?15?20?25;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic@diamond;15|15||1#diamond1};1540368050;1540890050;EVENTS/EVENT_DESCRIPTION_CUREDOCTOR_TITLE_1;EVENTS/EVENT_DESCRIPTION_CUREDOCTOR_1;BlueDoc
+    loadGlobalEventToTest: 0
+  - Key: GE5_TREATMENTROOM
+    Value: CurePatientActivityGlobalEvent;true;1000000;1017245;10;3?10?15?20?25;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic@diamond;15|15||1#diamond1};1540368050;1540890050;EVENTS/EVENT_DESCRIPTION_CURE_TITLE;EVENTS/EVENT_DESCRIPTION_CURE;2xBedsRoom
+    loadGlobalEventToTest: 0
+  - Key: GE5_Ginger
+    Value: CollectOnMapActivityGlobalEvent;true;25000000;25112431;4;2?4?6?8?10;[bundle;1|1||1@goodieBox%bundle;1|1||1@specialBox%bundle;1|1||1@premiumBox%bundle;1|1||1@awesomeBox%bundle;1|1||1@superAwesomeBox];{decoration;1|1||1#scarecrow_halloween#dynamic};1541676534;1541769472;EVENTS/EVENT_DESCRIPTION_XMAS_TITLE;EVENTS/EVENT_DESCRIPTION_XMAS;Pumpkin;3;0;1;15;custom_image_ge_2;custom_image_ge_3;custom_image_ge_4;custom_image_ge_1
+    loadGlobalEventToTest: 1
+  mockedDailyRewards:
+  - Key: week1
+    Value: coin;100|100||1#coin1!coin;110|110||1#coin1!coin;120|120||1#coin1!coin;130|130||1#coin1!coin;140|140||1#coin1!coin;150|150||1#coin1!coin;160|160||1#coin1!bundle;1|1||1@awesomeBox
+    useThisMock: 1
+  - Key: week2
+    Value: coin;2|2|#coin1!diamond;2|2|#diamond1!positiveEnergy;2|2|#dynamic!booster;2|2|#0#dynamic!medicine;2|2|#Syrop(0)#dynamic!decoration;2|2|#patio_bush_3#dynamic!coin;22|22|#coin1!bundle;2|2|@DAILY_REWARD_BIG_BOX_NAME@dailyRewardBoxWeek1@coin;2|2|#coin1@diamond;2|2|#diamond1@positiveEnergy;2|2|#positiveEnergy1@booster;2|2|#0#dynamic@medicine;2|2|#Syrop(0)#dynamic@decoration;2|2|#patio_bush_3#dynamic
+    useThisMock: 0
+  - Key: week3
+    Value: coin;3|3|#coin1!diamond;3|3|#diamond1!positiveEnergy;3|3|#dynamic!booster;3|3|#0#dynamic!medicine;3|3|#Syrop(0)#dynamic!decoration;3|3|#patio_bush_3#dynamic!coin;33|33|#coin1!bundle;3|3|@DAILY_REWARD_BIG_BOX_NAME@dailyRewardBoxWeek1@coin;3|3|#coin1@diamond;3|3|#diamond1@positiveEnergy;3|3|#positiveEnergy1@booster;3|3|#0#dynamic@medicine;3|3|#Syrop(0)#dynamic@decoration;3|3|#patio_bush_3#dynamic
+    useThisMock: 0
+  - Key: week4
+    Value: coin;4|4|#coin1!diamond;4|4|#diamond1!positiveEnergy;4|4|#dynamic!booster;4|4|#0#dynamic!medicine;4|4|#Syrop(0)#dynamic!decoration;4|4|#patio_bush_3#dynamic!coin;44|44|#coin1!bundle;4|4|@DAILY_REWARD_BIG_BOX_NAME@dailyRewardBoxWeek1@coin;4|4|#coin1@diamond;4|4|#diamond1@positiveEnergy;4|4|#positiveEnergy1@booster;4|4|#0#dynamic@medicine;4|4|#Syrop(0)#dynamic@decoration;4|4|#patio_bush_3#dynamic
+    useThisMock: 0
+  mockedBundledDefinitions:
+  - Key: goodieBox
+    Value: GIFT_BOXES_NAME_1@goodieBox@coin;10|50||1#coin1@medicine;1|1||1#RS#dynamic@booster;1|1||0.05#RSB#dynamic
+    useThisMock: 1
+  - Key: specialBox
+    Value: GITF_BOXES_NAME_2@specialBox@coin;150|300||1#coin1@medicine;1|1||1#RS#dynamic@medicine;1|1||1#RS#dynamic@booster;1|1||0.2#RSB#dynamic@decoration;1|1||1#R#dynamic
+    useThisMock: 1
+  - Key: premiumBox
+    Value: GIFT_BOXES_NAME_3@premiumBox@coin;1000|2000||1#coin1@diamond;3|3||1#diamond1@medicine;1|1||1#RS#dynamic@medicine;1|1||1#RS#dynamic@medicine;1|1||1#RS#dynamic@medicine;1|1||1#RS#dynamic@booster;1|1||1#RSB#dynamic@booster;1|1||0.5#RSB#dynamic@decoration;1|1||1#R#dynamic
+    useThisMock: 1
+  - Key: awesomeBox
+    Value: AWESOME_BOX@dailyRewardBoxWeek1@diamond;30|60||1#diamond1@coin;50|150||1#coin1@booster;1|3||0.08#RSB#dynamic@booster;1|1||0.05#RPB#dynamic@positiveEnergy;5|15||0.5#positiveEnergy1@medicine;2|2||50#Special(3)#dynamic@medicine;1|3||20#RST#dynamic@medicine;1|3||20#RTT#dynamic
+    useThisMock: 1
+  - Key: superAwesomeBox
+    Value: SUPER_AWESOME_BOX@pinkBox@diamond;50|100||1#diamond1@coin;300|500||1#coin1@booster;1|1||0.05#RPB#dynamic@booster;1|3||0.08#RSB#dynamic@positiveEnergy;5|15||0.5#positiveEnergy1@medicine;2|2||0.5#Special(3)#dynamic@medicine;1|3||20#RST#dynamic@medicine;1|3||20#RTT#dynamic
+    useThisMock: 1
+  mockedFakeContributionConfig: []
+  mockedGiftsPerLevel: []
+  MockedIapShopOrder: []
+  MockedIapShopBundles: []
+  MockedIapShopCoins: []
+  MockedDailyRewardPopupType:
+  - Key: popupType
+    Value: standard
+    useThisMock: 0
+  - Key: popupType
+    Value: stairs
+    useThisMock: 1
+  MockedCaseTierRewards: []
+  MockedDiamondFromTreasuresBool: []
+  MockedAdSpeedUpOfMedicine:
+  - Key: adPoint
+    Value: rewarded_ad_medicine_production
+    useThisMock: 1
+  - Key: adRewardAmount
+    Value: 3
+    useThisMock: 1
+  - Key: adCooldownSeconds
+    Value: 30
+    useThisMock: 1
+  - Key: adDailyLimit
+    Value: 1
+    useThisMock: 1
+  hospitalTimePassed: -1
+  maternityTimePassed: -1
+  showTutorials: 1
+  isIphoneX: 0
+  IapShopControllerIsTestBuild: 0
+  blockSaving: 0
+  enableDevTestUIOnStart: 1
+  devTestButtonVisible: 1
+  sendExceptionViaEmail: 0
+  EnableDebugLog: 1
+  UseAssetBundles: 0
+  TenjinTestBuild: 0
+  ForceToShowStartingPanel: 0
+  PharmacyMigrationOffersOn: 0
+  GameVersion: 260
+  MainSceneAssetBundleVersion: 1000
+  MaternitySceneAssetBundleVersion: 1000
+  FontsAssetBundleVersion: 1000
+  DevelopAWS: 0
+  UseMockedStandardEvents: 0
+  UseMockedBalancables: 0
+  UseMockedGlobalEvents: 0
+  UseMockedIapShop: 0
+  UseMockedDailyRewards: 0
+  UseMockedBundledRewardDefinitions: 0
+  UseMockedFakeContributionConfig: 0
+  UseMockedGiftsPerLevel: 0
+  UseMockedDailyRewardPopupType: 0
+  UseMockedAdSpeedUpOfMedicine: 0
+  UseMockedCaseTierPrize: 0
+  UseMockedDiamondFromTreasuresBool: 0

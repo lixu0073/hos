@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DailyRewardModel">
+    <Position X="6.5" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Hospital\DailyRewards\DailyRewardModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DailyRewardController">
+    <Position X="11.5" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQAQAAAAAEACAAAAABAAAAAAAEQAAAAEA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Hospital\DailyRewards\DailyRewardController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="weeklyRewards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SoftCurrencyGiftableResource">
+    <Position X="4.25" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAABAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Hospital\InGameResources\SoftCurrencyGiftableResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HardCurrencyGiftableResource">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAABAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Hospital\InGameResources\HardCurrencyGiftableResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
