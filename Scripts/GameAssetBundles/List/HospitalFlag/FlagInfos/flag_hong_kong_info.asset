@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec96bc39bfe3f440ae9b5c66b6ec84c, type: 3}
+  m_Name: flag_hong_kong_info
+  m_EditorClassIdentifier: 
+  flagName: icon_hong_kong
+  unlockLevel: 0
+  type: 0
+  cost: 0
+  currencyType: 0
+  assetbundleVersion: 1
+  route: HospitalFlag/flag_hong_kong_miniature
+  miniature: flag_hong_kong_miniature
+  ingameTexture: {fileID: 21300000, guid: 94a6056339a6f0d42b8551944d895adc, type: 3}
+  flagNameKey: FLAG_HONG_KONG
+  exp: 0

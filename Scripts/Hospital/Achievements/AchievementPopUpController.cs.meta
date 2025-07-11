@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e3eac1311350fbf4e920d3e2314cc95b
+timeCreated: 1451387090
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - panel: {instanceID: 0}
+  - achievementDatabase: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

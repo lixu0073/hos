@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec96bc39bfe3f440ae9b5c66b6ec84c, type: 3}
+  m_Name: flag_special_cherrypick_games_info
+  m_EditorClassIdentifier: 
+  flagName: icon_CPG
+  unlockLevel: 0
+  type: 2
+  cost: 30
+  currencyType: 0
+  assetbundleVersion: 1
+  route: HospitalFlag/flag_cpg_miniature
+  miniature: flag_CPG_miniature
+  ingameTexture: {fileID: 21300000, guid: e03f169cbf0a0494faf8844861e0dec6, type: 3}
+  flagNameKey: FLAG_SPECIAL_CHERRYPICK_GAMES
+  exp: 9

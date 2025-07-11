@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MultiSceneInformationController">
+    <Position X="5.75" Y="1.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAABAAAAAAAAABAAAAAAASAAgAAEAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\MultiSceneInformationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReadyForLabourInformation">
+    <Position X="18.75" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAABAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\ReadyForLabourInformation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HospitalMultiSceneInformationController">
+    <Position X="4" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\HospitalMultiSceneInformationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base_ReferenceHolder">
+    <Position X="0.5" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAABgAACAAIRCABAAAAQAAAAIABAAEEAEAAAUEgAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Shared\Base_ReferenceHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaternityWard">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <NestedTypes>
+      <Delegate Name="MaternityWard.DClick" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\Hospital\StaticObjects\MaternityWard.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="MaternityWard.ExternalRoomState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\_MyHospital\Scripts\Hospital\StaticObjects\MaternityWard.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgABEAARgDIYhEIKlAEAQKJC4AABgIqACAGCBMJJAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\Hospital\StaticObjects\MaternityWard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaternityMultiSceneInformationController">
+    <Position X="7.75" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\MaternityMultiSceneInformationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientArrivedToBedInformation">
+    <Position X="11.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAABAAACAAAAAAgAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\PatientArrivedToBedInformation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BloodTestCompletedInformation">
+    <Position X="15" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\BloodTestCompletedInformation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MultiSceneInformation" Collapsed="true">
+    <Position X="11.5" Y="1" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_MyHospital\Scripts\MultiSceneInformation\MultiSceneInformation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
